@@ -10,7 +10,19 @@ margin-bottom: 100px;
 font-family: "Roboto mono", monospace;
 }
 
-
+header{
+   border-bottom: solid 2px #696868;
+   margin: 20px ;
+   font-size: 80px ;
+   color: #000000;
+}
+   section{
+   padding-bottom: 80px ;
+   padding-top: 80px ;
+   background: #696868;
+   display: flex;
+   justify-content: center;
+   }
 h1{
     color: blanchedalmond;
 font-size: 40px;
