@@ -1,47 +1,81 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>angeloflix</title>
-</head>
-<body>
-  <header>
-    <h1>franquia Batman</h1>
-  </header>
-  <section class="chamada-texto">
-    <div>
-        <h1>"O medo é uma ferramenta. Eles pensam que me escondo nas sombras... mas eu sou as sombras."</h1>
-        <p>#Batman arkham Origins<https://github.com/cj793/angeloflix.git/p>
-    </div>
-    <div>
-        <iframe width="1316" height="740" src="https://www.youtube.com/embed/9pnK8akbd2M" title="Batman: Arkham Origins Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-  </section> 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+body{
+    color:#000000;
+ background-color: rgba(0, 0, 0, 0.564);
+margin: 0px;
+margin-bottom: 100px;
+font-family: "Roboto mono", monospace;
+}
+
+header{
+   border-bottom: solid 2px #696868;
+   margin: 20px ;
+   font-size: 80px ;
+   color: #000000;
+}
 
 <section class="categoria-videos">
-   <h2>mais videos</h2>
-   <div>
-        <a href="https://www.youtube.com/watch?v=Fvu5m7r6acw">
-        <img src="https://img.youtube.com/vi/Fvu5m7r6acw/maxresdefault.jpg">
-        </a>
-        <a href="https://www.youtube.com/watch?v=pxcuVsjDePc">
-        <img src="https://img.youtube.com/vi/pxcuVsjDePc/maxresdefault.jpg">
-        </a>
-        <a href="https://www.youtube.com/watch?v=KptlAKXOV5w">
-        <img src=" https://img.youtube.com/vi/KptlAKXOV5w/maxresdefault.jpg">
-        </a>
-        <a href="https://www.youtube.com/watch?v=F-HpgJNZTiE">
-        <img src="https://img.youtube.com/vi/F-HpgJNZTiE/maxresdefault.jpg">
-        </a>
+   section{
+   padding-bottom: 80px ;
+   padding-top: 80px ;
+   background: #696868;
+   display: flex;
+   justify-content: center;
+   }
+h1{
+    color: rgba(214, 187, 145, 0.507);
+font-size: 40px;
 
-   </div>
-</section>
+}
+p{
+    font-size: 20px;
+}
 
-</body>
-</html>
+.categoria{
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+<section class="categoria-videos">
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+img{
+
+    height: 200px;
+
+
+
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+
+opacity:1.0;
+border: 3px solid #69655c;
+
+}
+
+.categoria h2{
+color: #353330;
+
+}
+
+
+.chamada-texto{
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    background-color: #0c0c0c;
+    color: #e2cfab;
+}
